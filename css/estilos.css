@@ -70,17 +70,17 @@ li {
     border-bottom: 2px solid white;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        li a:hover {
-            background-color: #1d71e6;
-        }
+li a:hover {
+    background-color: #1d71e6;
+}
 
 /* Estilos para los párrafos centrados con ancho máximo */
 p {
@@ -96,55 +96,75 @@ p {
     text-align: center;
 }
 
-    .container img {
-        display: inline-block;
-        max-width: 100%; /* Asegúrate de que las imágenes no se desborden */
-        height: auto; /* Mantiene la proporción de la imagen */
-    }
+.container img {
+    display: inline-block;
+    max-width: 100%; /* Asegúrate de que las imágenes no se desborden */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column; /* Apila logo y título verticalmente */
-        align-items: center;
-        margin-bottom: 10px; /* Espacio entre el encabezado y la barra de navegación */
-    }
+.header-content {
+    flex-direction: column; /* Apila logo y título verticalmente */
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre el encabezado y la barra de navegación */
+}
 
-    .logo-container {
-        margin-right: 0; /* Quitar margen en vista móvil */
-        margin-bottom: 10px; /* Espacio entre el logo y el título en vista móvil */
-    }
+.logo-container {
+    margin-right: 0; /* Quitar margen en vista móvil */
+    margin-bottom: 10px; /* Espacio entre el logo y el título en vista móvil */
+}
 
-    nav {
-        width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho en móviles */
-    }
+nav {
+    width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho en móviles */
+}
 
-    ul {
-        flex-direction: column; /* Menú vertical en pantallas más pequeñas */
-        padding: 0;
-    }
+ul {
+    flex-direction: column; /* Menú vertical en pantallas más pequeñas */
+    padding: 0;
+}
 
-    li {
-        border-bottom: none; /* Quitar bordes en el menú vertical */
-    }
+li {
+    border-bottom: none; /* Quitar bordes en el menú vertical */
+}
 
-        li a {
-            padding: 10px; /* Ajustar el padding para mejor visualización en pantallas pequeñas */
-            text-align: center; /* Asegurarse de que el texto esté centrado */
-        }
+li a {
+    padding: 10px; /* Ajustar el padding para mejor visualización en pantallas pequeñas */
+    text-align: center; /* Asegurarse de que el texto esté centrado */
+}
 }
 
 @media (max-width: 480px) {
-    .logo {
-        height: 50px; /* Tamaño más pequeño para logos en pantallas muy pequeñas */
-    }
+.logo {
+    height: 50px; /* Tamaño más pequeño para logos en pantallas muy pequeñas */
+}
 
-    h2, h1 {
-        font-size: 1.2em; /* Tamaño de fuente más pequeño para encabezados en pantallas pequeñas */
-    }
+h2, h1 {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para encabezados en pantallas pequeñas */
+}
 
-    p {
-        font-size: 0.9em; /* Tamaño de fuente más pequeño para párrafos */
-        padding: 0 5px;
-    }
+p {
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para párrafos */
+    padding: 0 5px;
+}
+}
+.facebook-icon {
+    width: 40px; /* Tamaño del ícono */
+    height: 40px; /* Tamaño del ícono */
+    border-radius: 50%; /* Opcional: hace que el ícono tenga bordes redondeados */
+    transition: transform 0.3s; /* Animación suave para el efecto de hover */
+}
+
+.facebook-icon:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+}
+.Whatsap-icon {
+    width: 40px; /* Tamaño del ícono */
+    height: 40px; /* Tamaño del ícono */
+    border-radius: 50%; /* Opcional: hace que el ícono tenga bordes redondeados */
+    transition: transform 0.3s; /* Animación suave para el efecto de hover */
+}
+
+.Whatsap-icon:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
 }
