@@ -12,7 +12,7 @@ header {
     flex-direction: column; /* Cambiado para apilar logo y título verticalmente */
     align-items: center;
     background-color: #2e8de9;
-    color: #fff;
+    color: #2e8de9;
     padding: 10px 20px;
 }
 
@@ -41,13 +41,17 @@ h2, h1 {
 }
 
 h2 {
+    
     font-size: 1.5em;
     background-color: #0f90e5;
+}
+h1{
+    color:black;
 }
 
 /* Barra de navegación */
 nav {
-    background-color: #444;
+    background-color: #2e8de9;
     padding: 10px 0;
 }
 
