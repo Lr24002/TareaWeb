@@ -2,14 +2,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #aef5ee;
+    background-color: #b0eadc;
     font-family: Arial, sans-serif;
 }
 
 /* Estilos para el encabezado */
 header {
     display: flex;
-    flex-direction: column; /* Cambiado para apilar logo y título verticalmente */
+    flex-direction: column; 
     align-items: center;
     background-color: #2e8de9;
     color: #2e8de9;
