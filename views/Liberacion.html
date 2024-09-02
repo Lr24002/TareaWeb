@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Liberacion de neonatos</title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css" />
 </head>
 <body>
@@ -27,7 +28,13 @@
         </nav>
     </header>
     <main>
-
+        <br />
+        <div class="container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VOkRtqUUpgU?si=bdQqJOuftT5VKOZ2"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+        </div>
         <p>
             Para el proceso de <b>liberación</b>, a pesar de que se pueden liberar luego de un día de nacidas
             se acumulan de unos 5 o 6 días para soltar varias de una vez.
@@ -62,6 +69,48 @@
         <p>
             <i><b><u>Dato:</u> de 45,000 huevos recolectados en 2,023 solo se liberaron 38,000 tortuguitas</b></i>
         </p>
+
+
+        <form class="container">
+
+            <h2><i>Si te gustaría participar en la liberación de neonatos llena el siguiente formulario:</i></h2>
+            <label>Nombre completo:</label>
+            <br />
+            <input type="text" id="txtNombre" required />
+            <br />
+            <br />
+
+            <label>Fecha:</label>
+            <br />
+            <input type="date" id="txtFecha" required />
+            <br />
+            <br />
+
+            <label>Telefono:</label>
+            <br />
+            <input type="tel" id="txtTelefono" placeholder="0000-0000" required />
+            <br />
+            <br />
+
+            <label>Asunto</label>
+            <br />
+            <select id="slAsunto">
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="Participar en noche de veda">Noche veda</option>
+                <option value="Liberación de neonatos">Liberación neonatos</option>
+
+            </select>
+            <br />
+            <br />
+
+            <label>Mensaje</label>
+            <br />
+            <textarea id="txtMensaje" rows="3" cols="60"></textarea>
+            <br />
+            <br />
+
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer>
         <br />

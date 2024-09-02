@@ -1,4 +1,4 @@
-﻿/* Asegúrate de resetear el margin y padding en el body */
+﻿
 body {
     margin: 0;
     padding: 0;
@@ -29,14 +29,14 @@ header {
 }
 
 .logo {
-    height: 60px; /* Tamaño uniforme para el logo */
+    height: 60px;  
 }
 
 /* Estilo para los encabezados */
 h2, h1 {
     text-align:center;
     margin: 0;
-    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-family: 'Playfair Display', serif; 
     color: white;
 }
 
@@ -85,34 +85,33 @@ li a:hover {
 /* Estilos para los párrafos centrados con ancho máximo */
 p {
     text-align: center;
-    max-width: 800px; /* Define un ancho máximo para los párrafos */
-    margin: 0 auto; /* Centra el párrafo en el contenedor */
-    line-height: 1.6; /* Mejora la legibilidad */
-    padding: 0 10px; /* Opcional: agrega un poco de relleno a los lados */
+    max-width: 800px; 
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 0 10px;
 }
 
-/* Estilos para imágenes en contenedores */
+/* Contenedor para centrar imagenes*/
 .container {
     text-align: center;
 }
 
 .container img {
     display: inline-block;
-    max-width: 100%; /* Asegúrate de que las imágenes no se desborden */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%;
+    height: auto; 
 }
 
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
 .header-content {
-    flex-direction: column; /* Apila logo y título verticalmente */
-    align-items: center;
-    margin-bottom: 10px; /* Espacio entre el encabezado y la barra de navegación */
+    flex-direction: column; 
+    margin-bottom: 10px;
 }
 
 .logo-container {
-    margin-right: 0; /* Quitar margen en vista móvil */
-    margin-bottom: 10px; /* Espacio entre el logo y el título en vista móvil */
+    margin-right: 0;
+    margin-bottom: 10px; 
 }
 
 nav {
