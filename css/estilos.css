@@ -66,17 +66,17 @@ li {
     border-bottom: 2px solid white;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        li a:hover {
-            background-color: #1d71e6;
-        }
+li a:hover {
+    background-color: #1d71e6;
+}
 
 p {
     text-align: center;
@@ -91,40 +91,40 @@ p {
     margin: 0 auto;
 }
 
-    .container img {
-        display: inline-block;
-        max-width: 100%;
-        height: auto;
-    }
+.container img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
+ .header-content {
+     flex-direction: column;
+     margin-bottom: 10px;
+ }
 
-    .logo-container {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+ .logo-container {
+     margin-right: 0;
+     margin-bottom: 10px;
+ }
 
-    nav {
-        width: 100%;
-    }
+ nav {
+     width: 100%;
+ }
 
-    ul {
-        flex-direction: column;
-        padding: 0;
-    }
+ ul {
+     flex-direction: column;
+     padding: 0;
+ }
 
-    li {
-        border-bottom: none;
-    }
+ li {
+     border-bottom: none;
+ }
 
-        li a {
-            padding: 10px;
-            text-align: center;
-        }
+  li a {
+      padding: 10px;
+      text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -149,9 +149,9 @@ p {
     transition: transform 0.3s;
 }
 
-    .facebook-icon:hover {
-        transform: scale(1.1);
-    }
+.facebook-icon:hover {
+    transform: scale(1.1);
+}
 
 .Whatsap-icon {
     width: 40px;
@@ -160,9 +160,9 @@ p {
     transition: transform 0.3s;
 }
 
-    .Whatsap-icon:hover {
-        transform: scale(1.1);
-    }
+.Whatsap-icon:hover {
+    transform: scale(1.1);
+}
 
 .video-wrapper {
     max-width: 725px;
@@ -170,10 +170,10 @@ p {
     padding: 0 10px;
 }
 
-    .video-wrapper iframe {
-        width: 100%;
-        height: auto;
-    }
+.video-wrapper iframe {
+    width: 100%;
+    height: auto;
+}
 
 #txtMensaje {
     width: 40%;
@@ -192,9 +192,9 @@ p {
     text-align: center;
 }
 
-    .button:hover {
-        background-color: #0056b3;
-    }
+.button:hover {
+    background-color: #0056b3;
+}
 
 .table-container {
     overflow-x: auto;
@@ -207,18 +207,18 @@ p {
     border-collapse: collapse;
 }
 
-    .horizontal-table th,
-    .horizontal-table td {
-        border: 1px solid #ddd;
-        padding: 10px;
-        text-align: left;
-    }
+.horizontal-table th,
+.horizontal-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
 
-    .horizontal-table thead {
-        background-color: #f4f4f4;
-        font-weight: bold;
-    }
+.horizontal-table thead {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
 
-    .horizontal-table tbody tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
+.horizontal-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
