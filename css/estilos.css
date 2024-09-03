@@ -1,15 +1,13 @@
-﻿
-body {
+﻿body {
     margin: 0;
     padding: 0;
     background-color: #b0eadc;
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para el encabezado */
 header {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     background-color: #2e8de9;
     color: #2e8de9;
@@ -21,35 +19,33 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 10px; /* Espacio entre el contenido del encabezado y la barra de navegación */
+    margin-bottom: 10px;
 }
 
 .logo-container {
-    margin-right: 20px; /* Espacio entre el logo y el título */
+    margin-right: 20px;
 }
 
 .logo {
-    height: 60px;  
+    height: 60px;
 }
 
-/* Estilo para los encabezados */
 h2, h1 {
-    text-align:center;
+    text-align: center;
     margin: 0;
-    font-family: 'Playfair Display', serif; 
+    font-family: 'Playfair Display', serif;
     color: white;
 }
 
 h2 {
-    
     font-size: 1.5em;
     background-color: #0f90e5;
 }
-h1{
-    color:black;
+
+h1 {
+    color: black;
 }
 
-/* Barra de navegación */
 nav {
     background-color: #2e8de9;
     padding: 10px 0;
@@ -62,108 +58,167 @@ ul {
     padding: 0;
     overflow: hidden;
     display: flex;
-    flex-direction: row; /* Menú horizontal por defecto */
-    justify-content: center; /* Centrar elementos del menú */
+    flex-direction: row;
+    justify-content: center;
 }
 
 li {
     border-bottom: 2px solid white;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #1d71e6;
-}
+        li a:hover {
+            background-color: #1d71e6;
+        }
 
-/* Estilos para los párrafos centrados con ancho máximo */
 p {
     text-align: center;
-    max-width: 800px; 
+    max-width: 800px;
     margin: 0 auto;
     line-height: 1.6;
     padding: 0 10px;
 }
 
-/* Contenedor para centrar imagenes*/
 .container {
     text-align: center;
+    margin: 0 auto;
 }
 
-.container img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto; 
-}
+    .container img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
 
-/* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
-.header-content {
-    flex-direction: column; 
-    margin-bottom: 10px;
-}
+    .header-content {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
 
-.logo-container {
-    margin-right: 0;
-    margin-bottom: 10px; 
-}
+    .logo-container {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 
-nav {
-    width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho en móviles */
-}
+    nav {
+        width: 100%;
+    }
 
-ul {
-    flex-direction: column; /* Menú vertical en pantallas más pequeñas */
-    padding: 0;
-}
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
 
-li {
-    border-bottom: none; /* Quitar bordes en el menú vertical */
-}
+    li {
+        border-bottom: none;
+    }
 
-li a {
-    padding: 10px; /* Ajustar el padding para mejor visualización en pantallas pequeñas */
-    text-align: center; /* Asegurarse de que el texto esté centrado */
-}
+        li a {
+            padding: 10px;
+            text-align: center;
+        }
 }
 
 @media (max-width: 480px) {
-.logo {
-    height: 50px; /* Tamaño más pequeño para logos en pantallas muy pequeñas */
+    .logo {
+        height: 50px;
+    }
+
+    h2, h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+        padding: 0 5px;
+    }
 }
 
-h2, h1 {
-    font-size: 1.2em; /* Tamaño de fuente más pequeño para encabezados en pantallas pequeñas */
-}
-
-p {
-    font-size: 0.9em; /* Tamaño de fuente más pequeño para párrafos */
-    padding: 0 5px;
-}
-}
 .facebook-icon {
-    width: 40px; /* Tamaño del ícono */
-    height: 40px; /* Tamaño del ícono */
-    border-radius: 50%; /* Opcional: hace que el ícono tenga bordes redondeados */
-    transition: transform 0.3s; /* Animación suave para el efecto de hover */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
 
-.facebook-icon:hover {
-    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
-}
+    .facebook-icon:hover {
+        transform: scale(1.1);
+    }
+
 .Whatsap-icon {
-    width: 40px; /* Tamaño del ícono */
-    height: 40px; /* Tamaño del ícono */
-    border-radius: 50%; /* Opcional: hace que el ícono tenga bordes redondeados */
-    transition: transform 0.3s; /* Animación suave para el efecto de hover */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
 
-.Whatsap-icon:hover {
-    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+    .Whatsap-icon:hover {
+        transform: scale(1.1);
+    }
+
+.video-wrapper {
+    max-width: 725px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
+
+    .video-wrapper iframe {
+        width: 100%;
+        height: auto;
+    }
+
+#txtMensaje {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+.table-container {
+    overflow-x: auto;
+    width: 55%;
+    margin: 20px auto;
+}
+
+.horizontal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .horizontal-table th,
+    .horizontal-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .horizontal-table thead {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    .horizontal-table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }

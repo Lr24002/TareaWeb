@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <title>Llena el siguiente formulario</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="../images/Fiaes.png" alt="Logo Fiaes" class="logo" />
+                <img src="../images/QUELONIA.png" alt="Logo Quelonia" class="logo" width="100" />
+            </div>
+            <h2>Vívero Adescoet Tamarindo</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../views/Recoleccion.html">Recolección de huevos</a></li>
+                <li><a href="../views/Incubacion.html">Incubación</a></li>
+                <li><a href="../views/Conteo.html">Conteo de neonatos</a></li>
+                <li><a href="../views/Liberacion.html">Liberación de neonatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="container">
+            <label>Nombre completo:</label>
+            <br />
+            <input type="text" id="txtNombre" required />
+            <br />
+            <br />
+            <label>Fecha:</label>
+            <br />
+            <input type="date" id="txtFecha" required />
+            <br />
+            <br />
+            <label>Teléfono:</label>
+            <br />
+            <input type="tel" id="txtTelefono" placeholder="0000-0000" required />
+            <br />
+            <br />
+            <label>Asunto</label>
+            <br />
+            <select id="slAsunto">
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="Participar en noche de veda">Noche veda</option>
+                <option value="Liberación de neonatos">Liberación neonatos</option>
+            </select>
+            <br />
+            <br />
+            <label for="txtMensaje">Mensaje</label>
+            <br />
+            <textarea id="txtMensaje" rows="3"></textarea>
+            <br />
+            <br />
+            <button type="submit">Enviar</button>
+        </form>
+        <br />
+        <br />
+        <h2>Horarios de liberación</h2>
+        <div class="table-container">
+            <table class="horizontal-table">
+                <thead>
+                    <tr>
+                        <th>Horarios:</th>
+                        <th>mañana</th>
+                        <th>tarde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Martes</td>
+                        <td>8:00-10:00</td>
+                        <td>3:00-5:30</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>8:00-10:00</td>
+                        <td>3:00-5:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <br />
+        <br />
+        <h2>Información de contacto</h2>
+        <br />
+        <div class="container">
+            <a href="https://www.facebook.com/profile.php?id=61551052635446&mibextid=ZbWKwL" target="_blank">
+                <img src="../images/Facebook.png" alt="Facebook" class="facebook-icon" />
+            </a>
+            <a href="https://wa.me/+50374200922" target="_blank">
+                <img src="../images/Whatsap.png" alt="WhatsApp" class="Whatsap-icon" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
+</html>
